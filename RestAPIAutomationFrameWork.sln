@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestAPIAutomationFrameWork", "RestAPIAutomationFrameWork\RestAPIAutomationFrameWork.csproj", "{A9BF6164-7F3E-46E1-8DB3-3DF2F7D1E3F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9BF6164-7F3E-46E1-8DB3-3DF2F7D1E3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9BF6164-7F3E-46E1-8DB3-3DF2F7D1E3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9BF6164-7F3E-46E1-8DB3-3DF2F7D1E3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9BF6164-7F3E-46E1-8DB3-3DF2F7D1E3F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A01A920E-6D63-4247-8809-D4CB21A71A0B}
+	EndGlobalSection
+EndGlobal
