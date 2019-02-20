@@ -1,0 +1,36 @@
+﻿2019-02-17T19:23:54.1974605-05:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-02-17T19:23:54.2114507-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-02-17T19:23:54.2124491-05:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\RestAPIAutomationFrameWork\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-02-17T19:23:54.5472432-05:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-02-17T19:23:54.5482425-05:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\RestAPIAutomationFrameWork\bin\Debug\RestAPIAutomationFrameWork.dll
+2019-02-17T19:23:54.5482425-05:00;VSTestExecutionThread;Info;Profile: RestAPIAutomationFrameWork
+2019-02-17T19:24:02.6810026-05:00;Thread#13;Info;starting test run
+2019-02-17T19:24:02.6949929-05:00;Thread#13;Info;Discovering target: Default
+2019-02-17T19:24:02.6949929-05:00;Thread#13;Info;Discovering tests from assembly: C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\RestAPIAutomationFrameWork\bin\Debug\RestAPIAutomationFrameWork.dll
+Appdomain Disposed
+Test Suite Dump
+#0: RestAPIAutomationFrameWork/RestAPIAutomationFrameWork - 
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-02-17T19:24:03.0267892-05:00;Thread#13;Info;test run finished
+2019-02-17T19:24:03.0277894-05:00;Thread#13;Info;publishing test results
+2019-02-17T19:24:03.0987460-05:00;Thread#13;Info;test results published
+2019-02-17T19:24:03.0987460-05:00;Thread#13;Info;generating reports
+2019-02-17T19:24:03.1107372-05:00;Thread#13;Info;creating 1 report(s)
+2019-02-17T19:24:03.1107372-05:00;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-02-17T19:24:04.4721296-05:00;Thread#13;Info;reports generated
+Total: 0
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
+2019-02-17T19:24:04.4771254-05:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-02-17T19:24:04.4771254-05:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\TestResults\RestAPIAutomationFrameWork_RestAPIAutomationFrameWork_2019-02-17T192354.html'
+2019-02-17T19:24:04.4881188-05:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\TestResults\RestAPIAutomationFrameWork_RestAPIAutomationFrameWork_2019-02-17T192354.log
