@@ -1,11 +1,18 @@
-﻿Feature: SpecFlowFeature1
-	In order to avoid silly mistakes
-	As a math idiot
-	I want to be told the sum of two numbers
+﻿Feature: Test Api 
 
 @mytag
-Scenario: Add two numbers
-	Given I have a endpoint /endpoint/
-	And I have a base url http://mydomain.com/
-	When I call get method of the api
-	Then the I get the API response in json format
+Scenario: Test API endpoint
+	Given I have a endpoint /api/v2/pokemon/ditto
+	When I call get method of api
+	Then I get API response in json format
+
+Scenario Outline: Get User information using userid
+	Given I have a endpoint /userid/
+	When I call get method to get user information using <userid>
+	Then I will get user information 
+
+Examples: User Info
+|	userid
+|	useri0001
+
+

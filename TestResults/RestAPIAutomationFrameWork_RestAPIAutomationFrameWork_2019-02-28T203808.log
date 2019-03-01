@@ -1,0 +1,109 @@
+﻿2019-02-28T20:38:08.4973282-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-02-28T20:38:08.5043273-05:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\RestAPIAutomationFrameWork\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-02-28T20:38:08.7441782-05:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-02-28T20:38:08.7451775-05:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\RestAPIAutomationFrameWork\bin\Debug\RestAPIAutomationFrameWork.dll
+2019-02-28T20:38:08.7451775-05:00;VSTestExecutionThread;Info;Profile: RestAPIAutomationFrameWork
+2019-02-28T20:38:17.8538754-05:00;Thread#13;Info;starting test run
+2019-02-28T20:38:17.8648678-05:00;Thread#13;Info;Discovering target: Default
+2019-02-28T20:38:17.8648678-05:00;Thread#13;Info;Discovering tests from assembly: C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\RestAPIAutomationFrameWork\bin\Debug\RestAPIAutomationFrameWork.dll
+Appdomain Disposed
+Test Suite Dump
+#0: RestAPIAutomationFrameWork/RestAPIAutomationFrameWork - 
+#1: Default - 
+#2: RestAPIAutomationFrameWork - 
+#3: Test Api - 
+#4: Test API endpoint - TestAssembly:RestAPIAutomationFrameWork/Feature:Test+Api/Scenario:Test+API+endpoint
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for RestAPIAutomationFrameWork, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have a endpoint /todos/1
+Thread#0:T:error: Invalid URI: The format of the URI could not be determined.
+Thread#0:B:When I call get method of the api
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I get API response in json format
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Then(@"I get API response in json format")]
+Thread#0:T:        public void ThenIGetAPIResponseInJsonFormat()
+Thread#0:T:        {
+Thread#0:T:            ScenarioContext.Current.Pending();
+Thread#0:T:        }
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 0.7415469 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given I have a endpoint /todos/1
+Thread#0:T:error: Invalid URI: The format of the URI could not be determined.
+Thread#0:B:When I call get method of the api
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I get API response in json format
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Then(@"I get API response in json format")]
+Thread#0:T:        public void ThenIGetAPIResponseInJsonFormat()
+Thread#0:T:        {
+Thread#0:T:            ScenarioContext.Current.Pending();
+Thread#0:T:        }
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.0069972 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given I have a endpoint /todos/1
+Thread#0:T:error: Invalid URI: The format of the URI could not be determined.
+Thread#0:B:When I call get method of the api
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I get API response in json format
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Then(@"I get API response in json format")]
+Thread#0:T:        public void ThenIGetAPIResponseInJsonFormat()
+Thread#0:T:        {
+Thread#0:T:            ScenarioContext.Current.Pending();
+Thread#0:T:        }
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.0079947 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-02-28T20:38:19.4189145-05:00;Thread#13;Info;test run finished
+2019-02-28T20:38:19.4199142-05:00;Thread#13;Info;publishing test results
+2019-02-28T20:38:19.4778779-05:00;Thread#13;Info;test results published
+2019-02-28T20:38:19.4778779-05:00;Thread#13;Info;generating reports
+2019-02-28T20:38:19.4878720-05:00;Thread#13;Info;creating 1 report(s)
+2019-02-28T20:38:19.4878720-05:00;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-02-28T20:38:20.6884878-05:00;Thread#13;Info;reports generated
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
+2019-02-28T20:38:20.6954836-05:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-02-28T20:38:20.6954836-05:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\TestResults\RestAPIAutomationFrameWork_RestAPIAutomationFrameWork_2019-02-28T203808.html'
+2019-02-28T20:38:20.7094744-05:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\TestResults\RestAPIAutomationFrameWork_RestAPIAutomationFrameWork_2019-02-28T203808.log

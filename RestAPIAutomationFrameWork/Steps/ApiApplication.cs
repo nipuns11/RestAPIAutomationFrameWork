@@ -16,27 +16,25 @@ namespace RestAPIAutomationFrameWork.Steps
             RestApiHelper.SetURL(endpoint);
         }
 
-        //[Given(@"I have a base url (.*)")]
-        //public void GivenIHaveABaseUrl(string baseURL)
-        //{
-        //    ScenarioContext.Current.Pending();
-        //}
-
-        [When(@"I call get method of the api")]
+       
+        [When(@"I call get method of api")]
         public void WhenICallGetMethodOfTheApi()
         {
             RestApiHelper.CreateRequest();
         }
 
-        [Then(@"the I get the API response in json format")]
+        [Then(@"I get API response in json format")]
         public void ThenTheIGetTheAPIResponseInJsonFormat()
         {
-            var Expected = "hello";
+            var Expected = "abilities";
             var apiResponse = RestApiHelper.GetResponse();
+            //Assert.That(apiResponse.Content, Is.EqualTo(Expected), "error message");
             if (apiResponse.StatusCode == System.Net.HttpStatusCode.OK)
             {
                 Assert.That(apiResponse.Content,Is.EqualTo(Expected),"error message");
             }
+
+
         }
 
     }

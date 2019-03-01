@@ -17,9 +17,8 @@ namespace RestAPIAutomationFrameWork.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.4.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("SpecFlowFeature1", Description="\tIn order to avoid silly mistakes\r\n\tAs a math idiot\r\n\tI want to be told the sum o" +
-        "f two numbers", SourceFile="Features\\ApiApplication.feature", SourceLine=0)]
-    public partial class SpecFlowFeature1Feature
+    [TechTalk.SpecRun.FeatureAttribute("Test Api", SourceFile="Features\\ApiApplication.feature", SourceLine=0)]
+    public partial class TestApiFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
@@ -31,8 +30,7 @@ namespace RestAPIAutomationFrameWork.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "SpecFlowFeature1", "\tIn order to avoid silly mistakes\r\n\tAs a math idiot\r\n\tI want to be told the sum o" +
-                    "f two numbers", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Test Api", null, ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -68,25 +66,47 @@ namespace RestAPIAutomationFrameWork.Features
             testRunner.CollectScenarioErrors();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Add two numbers", new string[] {
-                "mytag"}, SourceLine=6)]
-        public virtual void AddTwoNumbers()
+        [TechTalk.SpecRun.ScenarioAttribute("Test API endpoint", new string[] {
+                "mytag"}, SourceLine=3)]
+        public virtual void TestAPIEndpoint()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers", null, new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Test API endpoint", null, new string[] {
                         "mytag"});
-#line 7
+#line 4
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 8
- testRunner.Given("I have a endpoint /endpoint/", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 9
- testRunner.And("I have a base url http://mydomain.com/", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 10
- testRunner.When("I call get method of the api", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 11
- testRunner.Then("the I get the API response in json format", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 5
+ testRunner.Given("I have a endpoint /api/v2/pokemon/ditto", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 6
+ testRunner.When("I call get method of api", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 7
+ testRunner.Then("I get API response in json format", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
+        }
+        
+        public virtual void GetUserInformationUsingUserid(string[] exampleTags)
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get User information using userid", null, exampleTags);
+#line 9
+this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 10
+ testRunner.Given("I have a endpoint /userid/", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 11
+ testRunner.When("I call get method to get user information using <userid>", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 12
+ testRunner.Then("I will get user information", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [TechTalk.SpecRun.ScenarioAttribute("Get User information using userid, User Info, Variant 0", SourceLine=15)]
+        public virtual void GetUserInformationUsingUserid_UserInfo_Variant0()
+        {
+#line 9
+this.GetUserInformationUsingUserid(((string[])(null)));
+#line hidden
         }
         
         [TechTalk.SpecRun.TestRunCleanup()]

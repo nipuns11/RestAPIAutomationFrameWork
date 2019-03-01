@@ -12,7 +12,7 @@ namespace RestAPIAutomationFrameWork
     {
         public static RestClient client;
         public static RestRequest restRequest;
-        public static string baseurl = "http://mydomain.com";
+        public static string baseurl = "https://alexwohlbruck.github.io";
 
         public static RestClient SetURL(string endpoint)
         {
