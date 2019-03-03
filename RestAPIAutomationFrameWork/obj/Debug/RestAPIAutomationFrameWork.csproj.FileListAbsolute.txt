@@ -56,6 +56,7 @@ C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\RestAPIAutomationFr
 C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\RestAPIAutomationFrameWork\bin\Debug\nunit.framework.pdb
 C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\RestAPIAutomationFrameWork\bin\Debug\nunit.framework.xml
 C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\RestAPIAutomationFrameWork\bin\Debug\RestSharp.xml
+C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\RestAPIAutomationFrameWork\obj\Debug\RestAPIAutomationFrameWork.csprojAssemblyReference.cache
 C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\RestAPIAutomationFrameWork\obj\Debug\RestAPIAutomationFrameWork.csproj.CoreCompileInputs.cache
 C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\RestAPIAutomationFrameWork\obj\Debug\RestAPIAutomationFrameWork.csproj.CopyComplete
 C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\RestAPIAutomationFrameWork\obj\Debug\RestAPIAutomationFrameWork.dll

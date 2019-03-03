@@ -17,8 +17,8 @@ namespace RestAPIAutomationFrameWork.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.4.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("Test Api", SourceFile="Features\\ApiApplication.feature", SourceLine=0)]
-    public partial class TestApiFeature
+    [TechTalk.SpecRun.FeatureAttribute("http bin api\'s", SourceFile="Features\\ApiApplication.feature", SourceLine=0)]
+    public partial class HttpBinApisFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
@@ -30,7 +30,7 @@ namespace RestAPIAutomationFrameWork.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Test Api", null, ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "http bin api\'s", null, ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -66,17 +66,17 @@ namespace RestAPIAutomationFrameWork.Features
             testRunner.CollectScenarioErrors();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Test API endpoint", new string[] {
+        [TechTalk.SpecRun.ScenarioAttribute("Test API", new string[] {
                 "mytag"}, SourceLine=3)]
-        public virtual void TestAPIEndpoint()
+        public virtual void TestAPI()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Test API endpoint", null, new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Test API", null, new string[] {
                         "mytag"});
 #line 4
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
 #line 5
- testRunner.Given("I have a endpoint /api/v2/pokemon/ditto", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I have a endpoint /get", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 6
  testRunner.When("I call get method of api", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 7
@@ -85,27 +85,27 @@ this.ScenarioInitialize(scenarioInfo);
             this.ScenarioCleanup();
         }
         
-        public virtual void GetUserInformationUsingUserid(string[] exampleTags)
+        public virtual void GetBytesInformationUsingN(string n, string[] exampleTags)
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get User information using userid", null, exampleTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get bytes information using n", null, exampleTags);
 #line 9
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
 #line 10
- testRunner.Given("I have a endpoint /userid/", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I have a endpoint /bytes/", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 11
- testRunner.When("I call get method to get user information using <userid>", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When(string.Format("I call get method to get user information using {0}", n), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 12
  testRunner.Then("I will get user information", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Get User information using userid, User Info, Variant 0", SourceLine=15)]
-        public virtual void GetUserInformationUsingUserid_UserInfo_Variant0()
+        [TechTalk.SpecRun.ScenarioAttribute("Get bytes information using n, bytes info, 1", SourceLine=15)]
+        public virtual void GetBytesInformationUsingN_BytesInfo_1()
         {
 #line 9
-this.GetUserInformationUsingUserid(((string[])(null)));
+this.GetBytesInformationUsingN("1", ((string[])(null)));
 #line hidden
         }
         

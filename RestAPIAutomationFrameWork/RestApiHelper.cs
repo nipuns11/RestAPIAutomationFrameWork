@@ -12,11 +12,11 @@ namespace RestAPIAutomationFrameWork
     {
         public static RestClient client;
         public static RestRequest restRequest;
-        public static string baseurl = "https://alexwohlbruck.github.io";
+        public static string baseurl = "https://httpbin.org";
 
         public static RestClient SetURL(string endpoint)
         {
-            var url = Path.Combine(baseurl, endpoint);
+            var url = baseurl + endpoint;
             return client =  new RestClient(url);
         }
 
@@ -24,6 +24,14 @@ namespace RestAPIAutomationFrameWork
         {
             restRequest = new RestRequest(Method.GET);
             restRequest.AddHeader("Accept","application/json");
+            return restRequest;
+        }
+        //overloading method
+        public static RestRequest CreateRequest(string n)
+        {
+            var resource = n;    
+            restRequest = new RestRequest(Method.GET);
+            restRequest.AddHeader("Accept", "application/json");
             return restRequest;
         }
 

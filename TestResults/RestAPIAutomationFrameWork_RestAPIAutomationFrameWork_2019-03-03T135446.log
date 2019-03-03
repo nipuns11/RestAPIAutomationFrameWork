@@ -1,0 +1,147 @@
+﻿2019-03-03T13:54:45.7420754-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-03-03T13:54:45.7520705-05:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\RestAPIAutomationFrameWork\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-03-03T13:54:46.0029227-05:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-03-03T13:54:46.0029227-05:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\RestAPIAutomationFrameWork\bin\Debug\RestAPIAutomationFrameWork.dll
+2019-03-03T13:54:46.0029227-05:00;VSTestExecutionThread;Info;Profile: RestAPIAutomationFrameWork
+2019-03-03T13:54:55.1538591-05:00;Thread#13;Info;starting test run
+2019-03-03T13:54:55.1658517-05:00;Thread#13;Info;Discovering target: Default
+2019-03-03T13:54:55.1658517-05:00;Thread#13;Info;Discovering tests from assembly: C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\RestAPIAutomationFrameWork\bin\Debug\RestAPIAutomationFrameWork.dll
+Appdomain Disposed
+Test Suite Dump
+#0: RestAPIAutomationFrameWork/RestAPIAutomationFrameWork - 
+#1: Default - 
+#2: RestAPIAutomationFrameWork - 
+#3: Test Api - 
+#4: Test API - TestAssembly:RestAPIAutomationFrameWork/Feature:Test+Api/Scenario:Test+API
+#5: Get User information using n, bytes info, Variant 0 - TestAssembly:RestAPIAutomationFrameWork/Feature:Test+Api/Scenario:Get+User+information+using+n%2c+bytes+info%2c+Variant+0
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for RestAPIAutomationFrameWork, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have a endpoint /get
+Thread#0:T:error: Invalid URI: The format of the URI could not be determined.
+Thread#0:B:When I call get method of api
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I get API response in json format
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 0.7078246 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given I have a endpoint /get
+Thread#0:T:error: Invalid URI: The format of the URI could not be determined.
+Thread#0:B:When I call get method of api
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I get API response in json format
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.004995 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given I have a endpoint /get
+Thread#0:T:error: Invalid URI: The format of the URI could not be determined.
+Thread#0:B:When I call get method of api
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I get API response in json format
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.0069949 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given I have a endpoint /bytes/
+Thread#0:T:error: Invalid URI: The format of the URI could not be determined.
+Thread#0:B:When I call get method to get user information using <n>
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I will get user information
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #5/0 is finished on thread #0 as Failed within 0.0069949 seconds
+Thread#0: Test #5/1 is started on thread #0
+Thread#0:B:Given I have a endpoint /bytes/
+Thread#0:T:error: Invalid URI: The format of the URI could not be determined.
+Thread#0:B:When I call get method to get user information using <n>
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I will get user information
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #5/1 is finished on thread #0 as Failed within 0.0049973 seconds
+Thread#0: Test #5/2 is started on thread #0
+Thread#0:B:Given I have a endpoint /bytes/
+Thread#0:T:error: Invalid URI: The format of the URI could not be determined.
+Thread#0:B:When I call get method to get user information using <n>
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I will get user information
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #5/2 is finished on thread #0 as Failed within 0.0099936 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-03-03T13:54:56.7606590-05:00;Thread#13;Info;test run finished
+2019-03-03T13:54:56.7616601-05:00;Thread#13;Info;publishing test results
+2019-03-03T13:54:56.8156239-05:00;Thread#13;Info;test results published
+2019-03-03T13:54:56.8156239-05:00;Thread#13;Info;generating reports
+2019-03-03T13:54:56.8316151-05:00;Thread#13;Info;creating 1 report(s)
+2019-03-03T13:54:56.8316151-05:00;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-03-03T13:54:58.2058743-05:00;Thread#13;Info;reports generated
+Total: 2 (test executions: 6)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 2
+2019-03-03T13:54:58.2128696-05:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-03-03T13:54:58.2128696-05:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\TestResults\RestAPIAutomationFrameWork_RestAPIAutomationFrameWork_2019-03-03T135446.html'
+2019-03-03T13:54:58.2358557-05:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\TestResults\RestAPIAutomationFrameWork_RestAPIAutomationFrameWork_2019-03-03T135446.log

@@ -1,0 +1,141 @@
+﻿2019-03-03T15:27:27.8174209-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-03-03T15:27:27.8234166-05:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\RestAPIAutomationFrameWork\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-03-03T15:27:28.0832575-05:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-03-03T15:27:28.0842573-05:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\RestAPIAutomationFrameWork\bin\Debug\RestAPIAutomationFrameWork.dll
+2019-03-03T15:27:28.0842573-05:00;VSTestExecutionThread;Info;Profile: RestAPIAutomationFrameWork
+2019-03-03T15:27:40.2041342-05:00;Thread#13;Info;starting test run
+2019-03-03T15:27:40.2151276-05:00;Thread#13;Info;Discovering target: Default
+2019-03-03T15:27:40.2161259-05:00;Thread#13;Info;Discovering tests from assembly: C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\RestAPIAutomationFrameWork\bin\Debug\RestAPIAutomationFrameWork.dll
+Appdomain Disposed
+Test Suite Dump
+#0: RestAPIAutomationFrameWork/RestAPIAutomationFrameWork - 
+#1: Default - 
+#2: RestAPIAutomationFrameWork - 
+#3: http bin api's - 
+#4: Test API - TestAssembly:RestAPIAutomationFrameWork/Feature:http+bin+api%27s/Scenario:Test+API
+#5: Get User information using n, bytes info, 1 - TestAssembly:RestAPIAutomationFrameWork/Feature:http+bin+api%27s/Scenario:Get+User+information+using+n%2c+bytes+info%2c+1
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for RestAPIAutomationFrameWork, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have a endpoint /get
+Thread#0:T:done: ApiApplication.GivenIHaveAEndpoint("/get") (0.0s)
+Thread#0:B:When I call get method of api
+Thread#0:T:done: ApiApplication.WhenICallGetMethodOfTheApi() (0.0s)
+Thread#0:B:Then I get API response in json format
+Thread#0:T:error:   error message
+Thread#0:T:  Expected string length 9 but was 266. Strings differ at index 0.
+Thread#0:T:  Expected: "abilities"
+Thread#0:T:  But was:  "{\n  "args": {}, \n  "headers": {\n    "Accept": "application/js..."
+Thread#0:T:  -----------^
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 1.8447311 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given I have a endpoint /get
+Thread#0:T:done: ApiApplication.GivenIHaveAEndpoint("/get") (0.0s)
+Thread#0:B:When I call get method of api
+Thread#0:T:done: ApiApplication.WhenICallGetMethodOfTheApi() (0.0s)
+Thread#0:B:Then I get API response in json format
+Thread#0:T:error: Multiple failures or warnings in test:
+Thread#0:T:  1)   error message
+Thread#0:T:  Expected string length 9 but was 266. Strings differ at index 0.
+Thread#0:T:  Expected: "abilities"
+Thread#0:T:  But was:  "{\n  "args": {}, \n  "headers": {\n    "Accept": "application/js..."
+Thread#0:T:  -----------^
+Thread#0:T:  2)   error message
+Thread#0:T:  Expected string length 9 but was 266. Strings differ at index 0.
+Thread#0:T:  Expected: "abilities"
+Thread#0:T:  But was:  "{\n  "args": {}, \n  "headers": {\n    "Accept": "application/js..."
+Thread#0:T:  -----------^
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.1365991 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given I have a endpoint /get
+Thread#0:T:done: ApiApplication.GivenIHaveAEndpoint("/get") (0.0s)
+Thread#0:B:When I call get method of api
+Thread#0:T:done: ApiApplication.WhenICallGetMethodOfTheApi() (0.0s)
+Thread#0:B:Then I get API response in json format
+Thread#0:T:error: Multiple failures or warnings in test:
+Thread#0:T:  1)   error message
+Thread#0:T:  Expected string length 9 but was 266. Strings differ at index 0.
+Thread#0:T:  Expected: "abilities"
+Thread#0:T:  But was:  "{\n  "args": {}, \n  "headers": {\n    "Accept": "application/js..."
+Thread#0:T:  -----------^
+Thread#0:T:  2)   error message
+Thread#0:T:  Expected string length 9 but was 266. Strings differ at index 0.
+Thread#0:T:  Expected: "abilities"
+Thread#0:T:  But was:  "{\n  "args": {}, \n  "headers": {\n    "Accept": "application/js..."
+Thread#0:T:  -----------^
+Thread#0:T:  3)   error message
+Thread#0:T:  Expected string length 9 but was 266. Strings differ at index 0.
+Thread#0:T:  Expected: "abilities"
+Thread#0:T:  But was:  "{\n  "args": {}, \n  "headers": {\n    "Accept": "application/js..."
+Thread#0:T:  -----------^
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.086518 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given I have a endpoint /bytes/
+Thread#0:T:done: ApiApplication.GivenIHaveAEndpoint("/bytes/") (0.0s)
+Thread#0:B:When I call get method to get user information using 1
+Thread#0:T:done: ApiApplication.WhenICallGetMethodToGetUserInformationUsing("1") (0.0s)
+Thread#0:B:Then I will get user information
+Thread#0:T:done: ApiApplication.ThenIWillGetUserInformation() (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 0.0716759 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-03-03T15:27:43.1831416-05:00;Thread#13;Info;test run finished
+2019-03-03T15:27:43.1831416-05:00;Thread#13;Info;publishing test results
+2019-03-03T15:27:43.2391054-05:00;Thread#13;Info;test results published
+2019-03-03T15:27:43.2391054-05:00;Thread#13;Info;generating reports
+2019-03-03T15:27:43.2540958-05:00;Thread#13;Info;creating 1 report(s)
+2019-03-03T15:27:43.2550951-05:00;Thread#13;Info;generate Report ReportTemplate.cshtml
+2019-03-03T15:27:44.5318602-05:00;Thread#13;Info;reports generated
+Total: 2 (test executions: 4)
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
+2019-03-03T15:27:44.5378563-05:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-03-03T15:27:44.5378563-05:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\TestResults\RestAPIAutomationFrameWork_RestAPIAutomationFrameWork_2019-03-03T152728.html'
+2019-03-03T15:27:44.5488501-05:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\NipunSharma\Source\Repos\RestAPIAutomationFrameWork\TestResults\RestAPIAutomationFrameWork_RestAPIAutomationFrameWork_2019-03-03T152728.log
